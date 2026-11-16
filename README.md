@@ -46,6 +46,22 @@ highlighting unusual financial patterns.
 - Interactive multi-company charts and rule-based financial risk signals using OpenDART data
 
 
+### Real Financial Data Integration (v0.2)
+- OpenDART API integration
+- Samsung Electronics FY2024 consolidated financial statement analysis
+- Revenue growth, operating margin, and debt ratio calculations
+- Secure API key management using environment variables and Streamlit Secrets
+
+### Multi-Company Financial Comparison (v0.3)
+- Real financial data from Samsung Electronics, SK Hynix, and Hyundai Motor
+- FY2024 consolidated financial statement comparison
+- Interactive comparison of revenue growth, operating margin, and debt ratio
+- Multi-company visualization with Streamlit
+- Rule-based financial risk signals
+- Company selection for interactive analysis
+
+
+
 ## 4. Financial Metrics
 
 | Metric | Description |
@@ -75,9 +91,15 @@ Run the dashboard:
 
 ## 7. Data Disclaimer
 
-The demo company comparison uses fictional financial data.
-Samsung Electronics financial data are retrieved from the Financial Supervisory Service OpenDART API, based on FY2024 consolidated financial statements.
-Risk thresholds are illustrative and have not been empirically validated.
+
+The original demo dashboard uses fictional company data.
+
+The Samsung Analysis and Real Company Comparison pages use actual FY2024 financial statement data obtained through the Financial Supervisory Service OpenDART API.
+
+Financial risk signals are based on illustrative rules and have not been empirically validated. Financial ratios across different industries may not be directly comparable.
+
+This project is for educational and portfolio purposes only and does not constitute investment advice.
+
 
 ## 8. Development Roadmap
 
@@ -93,7 +115,11 @@ Risk thresholds are illustrative and have not been empirically validated.
 
 ## 9. Project Status
 
-Version 0.3 - Real Multi-Company Financial Comparison
+**Version 0.3 — Real Multi-Company Financial Comparison**
+The application currently supports real financial statement analysis and comparison across Samsung Electronics, SK Hynix, and Hyundai Motor using OpenDART data.
+The project combines financial ratio analysis, interactive visualization, and rule-based risk detection.
+Future development will focus on industry-adjusted risk scoring, anomaly detection, and AI-powered financial risk explanations.
+
 
 ## Dashboard Preview
 
