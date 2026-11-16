@@ -41,7 +41,9 @@ highlighting unusual financial patterns.
 - OpenDART API integration
 - Samsung Electronics FY2024 consolidated financial statement analysis
 - Real financial data-based ratio calculations
-- Secure API key management using environment variables and Streamlit Secrets
+- Secure API key management using environment variables and Streamlit Secrets=
+- Real financial ratio comparison across Samsung Electronics, SK Hynix, and Hyundai Motor
+- Interactive multi-company charts and rule-based financial risk signals using OpenDART data
 
 
 ## 4. Financial Metrics
@@ -79,19 +81,19 @@ Risk thresholds are illustrative and have not been empirically validated.
 
 ## 8. Development Roadmap
 
-- [x] Basic financial ratio calculator
-- [x] Multi-company comparison (demo data)
-- [x] Streamlit dashboard
-- [x] OpenDART API integration
-- [x] Samsung Electronics real financial statement analysis
-- [ ] Multi-company comparison using real financial data
+- [o] Basic financial ratio calculator
+- [o] Multi-company comparison (demo data)
+- [o] Streamlit dashboard
+- [o] OpenDART API integration
+- [o] Samsung Electronics real financial statement analysis
+- [o] Multi-company comparison using real financial data
 - [ ] Machine learning anomaly detection
 - [ ] LLM-based financial risk analysis
 - [ ] Historical backtesting and model evaluation
 
 ## 9. Project Status
 
-Version 0.2 - OpenDART Integration & Real Financial Analysis=
+Version 0.3 - Real Multi-Company Financial Comparison
 
 ## Dashboard Preview
 
