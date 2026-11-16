@@ -73,7 +73,7 @@ Run the dashboard:
 
     python -m streamlit run app.py
 
-## 7. Data Disclaimer(
+## 7. Data Disclaimer
 
 The demo company comparison uses fictional financial data.
 Samsung Electronics financial data are retrieved from the Financial Supervisory Service OpenDART API, based on FY2024 consolidated financial statements.
