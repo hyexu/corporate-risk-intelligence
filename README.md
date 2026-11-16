@@ -6,6 +6,13 @@
 A Python-based financial analytics dashboard designed to
 identify potential corporate financial risk signals.
 
+
+## Live Demo
+
+[Launch Corporate Risk Intelligence](https://corporate-risk-intelligence.streamlit.app)
+
+
+
 ## 1. Project Overview
 
 Corporate Risk Intelligence is a personal project
@@ -80,3 +87,5 @@ empirically validated.
 ## 9. Project Status
 
 Version 0.1 - Functional dashboard prototype
+
+
