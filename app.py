@@ -1,73 +1,104 @@
 
-# Corporate Risk Intelligence
-# Step 3 - Financial Ratio Analysis
+import streamlit as st
+import pandas as pd
 
-# 가상의 기업 재무데이터 (단위: 억 원)
-company = "Demo Corporation"
+st.set_page_config(
+    page_title="Corporate Risk Intelligence",
+    layout="wide"
+)
 
-financials = {
-    "revenue_2024": 1000,
-    "revenue_2025": 1200,
-    "operating_profit": 120,
-    "net_income": 80,
-    "total_assets": 2000,
-    "total_liabilities": 1400,
-    "operating_cash_flow": 50,
-    "receivables_2024": 100,
-    "receivables_2025": 180
+st.title("Corporate Risk Intelligence")
+st.caption("AI Financial Risk Monitoring - DEMO")
+st.warning("All financial data are fictional.")
+
+# 가상 기업 재무데이터 (단위: 억 원)
+data = {
+    "Company": ["Demo A", "Demo B", "Demo C"],
+    "Revenue_2024": [1000, 2000, 800],
+    "Revenue_2025": [1200, 2400, 850],
+    "Operating_Profit": [120, 360, 51],
+    "Net_Income": [80, 250, 30],
+    "Assets": [2000, 3000, 1200],
+    "Liabilities": [1400, 1200, 720],
+    "Operating_Cash_Flow": [50, 280, 25],
+    "Receivables_2024": [100, 200, 80],
+    "Receivables_2025": [180, 230, 100]
 }
 
-# 1. 매출액 증가율
-revenue_growth = (
-    (financials["revenue_2025"]
-     / financials["revenue_2024"]) - 1
+df = pd.DataFrame(data)
+
+# 재무비율 계산
+df["Revenue_Growth"] = (
+    df["Revenue_2025"] / df["Revenue_2024"] - 1
 ) * 100
 
-# 2. 영업이익률
-operating_margin = (
-    financials["operating_profit"]
-    / financials["revenue_2025"]
+df["Operating_Margin"] = (
+    df["Operating_Profit"] / df["Revenue_2025"]
 ) * 100
 
-# 3. 부채비율 (부채 / 자본)
-equity = (
-    financials["total_assets"]
-    - financials["total_liabilities"]
+df["Equity"] = df["Assets"] - df["Liabilities"]
+
+df["Debt_Ratio"] = (
+    df["Liabilities"] / df["Equity"]
+) * 100
+
+df["Cash_Conversion"] = (
+    df["Operating_Cash_Flow"] / df["Net_Income"]
 )
 
-debt_ratio = (
-    financials["total_liabilities"] / equity
+df["Receivables_Growth"] = (
+    df["Receivables_2025"] /
+    df["Receivables_2024"] - 1
 ) * 100
 
-# 4. 영업현금흐름 / 당기순이익
-cash_conversion = (
-    financials["operating_cash_flow"]
-    / financials["net_income"]
+# 기업 선택
+selected = st.multiselect(
+    "Select companies",
+    df["Company"].tolist(),
+    default=df["Company"].tolist()
 )
 
-# 5. 매출채권 증가율
-receivables_growth = (
-    (financials["receivables_2025"]
-     / financials["receivables_2024"]) - 1
-) * 100
+filtered = df[df["Company"].isin(selected)]
 
-print("\n=== Corporate Risk Intelligence ===")
-print("Company:", company)
-print("----------------------------------")
-print(f"Revenue Growth: {revenue_growth:.1f}%")
-print(f"Operating Margin: {operating_margin:.1f}%")
-print(f"Debt Ratio: {debt_ratio:.1f}%")
-print(f"OCF / Net Income: {cash_conversion:.2f}")
-print(f"Receivables Growth: {receivables_growth:.1f}%")
+st.subheader("Financial Overview")
 
-# 위험 신호 탐지 (학습용 임계값)
-print("\n=== Risk Signals ===")
+st.dataframe(
+    filtered[
+        ["Company", "Revenue_2025",
+         "Operating_Margin", "Debt_Ratio",
+         "Cash_Conversion"]
+    ],
+    use_container_width=True
+)
 
-if debt_ratio > 200:
-    print("[WARNING] High Debt Ratio")
+st.subheader("Operating Margin Comparison")
+st.bar_chart(
+    filtered.set_index("Company")["Operating_Margin"]
+)
 
-if cash_conversion < 0.8:
-    print("[WARNING] Weak Cash Conversion")
+st.subheader("Debt Ratio Comparison")
+st.bar_chart(
+    filtered.set_index("Company")["Debt_Ratio"]
+)
 
-if receivables_growth > revenue_growth + 20:
-    print("[WARNING] Receivables Growing Faster Than Sales")
+st.subheader("Risk Signals")
+
+for _, row in filtered.iterrows():
+    risks = []
+
+    if row["Debt_Ratio"] > 200:
+        risks.append("High Debt Ratio")
+
+    if row["Cash_Conversion"] < 0.8:
+        risks.append("Weak Cash Conversion")
+
+    if (
+        row["Receivables_Growth"]
+        > row["Revenue_Growth"] + 20
+    ):
+        risks.append("Receivables Growing Faster Than Sales")
+
+    if risks:
+        st.error(f"{row['Company']}: {', '.join(risks)}")
+    else:
+        st.success(f"{row['Company']}: No risk signals detected")
