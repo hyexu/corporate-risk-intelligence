@@ -88,4 +88,7 @@ empirically validated.
 
 Version 0.1 - Functional dashboard prototype
 
+## Dashboard Preview
+
+![Corporate Risk Intelligence Dashboard](dashboard.pdf)
 
