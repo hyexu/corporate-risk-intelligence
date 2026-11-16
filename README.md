@@ -37,7 +37,12 @@ highlighting unusual financial patterns.
 - Multi-company comparison
 - Interactive financial dashboard
 - Rule-based financial risk detection
-- Financial data visualization
+- Financial data visualization(
+- OpenDART API integration
+- Samsung Electronics FY2024 consolidated financial statement analysis
+- Real financial data-based ratio calculations
+- Secure API key management using environment variables and Streamlit Secrets
+
 
 ## 4. Financial Metrics
 
@@ -66,27 +71,27 @@ Run the dashboard:
 
     python -m streamlit run app.py
 
-## 7. Data Disclaimer
+## 7. Data Disclaimer(
 
-All financial data currently used in this project
-are fictional and for demonstration purposes only.
-
-Risk thresholds are illustrative and have not been
-empirically validated.
+The demo company comparison uses fictional financial data.
+Samsung Electronics financial data are retrieved from the Financial Supervisory Service OpenDART API, based on FY2024 consolidated financial statements.
+Risk thresholds are illustrative and have not been empirically validated.
 
 ## 8. Development Roadmap
 
 - [x] Basic financial ratio calculator
-- [x] Multi-company comparison
+- [x] Multi-company comparison (demo data)
 - [x] Streamlit dashboard
-- [ ] OpenDART API integration
+- [x] OpenDART API integration
+- [x] Samsung Electronics real financial statement analysis
+- [ ] Multi-company comparison using real financial data
 - [ ] Machine learning anomaly detection
 - [ ] LLM-based financial risk analysis
 - [ ] Historical backtesting and model evaluation
 
 ## 9. Project Status
 
-Version 0.1 - Functional dashboard prototype
+Version 0.2 - OpenDART Integration & Real Financial Analysis=
 
 ## Dashboard Preview
 
