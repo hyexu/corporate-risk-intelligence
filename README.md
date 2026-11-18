@@ -121,6 +121,74 @@ The project combines financial ratio analysis, interactive visualization, and ru
 Future development will focus on industry-adjusted risk scoring, anomaly detection, and AI-powered financial risk explanations.
 
 
+---
+
+## Development Status — 2026-11-18
+
+### Corporate Risk Intelligence
+
+Financial statement analysis and explainable accounting risk screening using OpenDART data.
+
+### Completed
+
+- Multi-year financial data collection (2022–2024)
+- Samsung Electronics, SK Hynix, Hyundai Motor
+- Financial account mapping and validation
+- Financial ratio calculation
+- Cross-year comparative consistency checks
+- Equivalent account ID handling
+- Verified financial risk screening
+- Receivables and revenue growth divergence detection
+- Inventory and revenue growth divergence detection
+- Net income and operating cash flow divergence detection
+- Rule-based financial explanations in Korean
+- Supporting diagnostic and testing scripts
+
+### Latest Validation Results
+
+- Companies analyzed: 3
+- Comparative account checks: 66
+- PASS: 60
+- PASS_EQUIVALENT: 4
+- REVIEW: 2
+- Screening signals: 5
+- Skipped screening checks: 2
+
+The two REVIEW cases concern Hyundai Motor's
+2022 revenue and operating income comparative amounts.
+
+The two skipped checks concern Hyundai Motor's
+2023 receivables and inventory screening, because
+the comparative revenue base is not yet verified.
+
+### Current Limitations
+
+- Screening thresholds are provisional, not statistically validated.
+- Screening signals do not establish fraud or financial distress.
+- Comparative restatements require disclosure-based verification.
+- Cash flow attribution requires detailed account reconciliation.
+- Financial services operations may affect cross-company comparability.
+- Rule-based explanations describe potential interpretations,
+  not confirmed causal relationships.
+
+### Development Roadmap
+
+1. Financial data collection and validation — implemented
+2. Comparative consistency and verified screening — implemented
+3. Financial explanation engine — initial version implemented
+4. Cash flow attribution engine — planned
+5. Multi-factor risk intelligence — planned
+6. Grounded AI financial analyst — planned
+7. Streamlit integration and deployment — planned
+
+### Development Branch
+
+Active development:
+`feature/financial-analysis-engine`
+
+The stable application remains on `main`.
+
+
 ## Dashboard Preview
 
 ![Corporate Risk Intelligence Dashboard](dashboard.pdf)
