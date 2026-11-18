@@ -1,0 +1,55 @@
+﻿company,year,account_id,account_nm,account_detail,current_amount,previous_amount
+Samsung Electronics,2022,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동 현금흐름,-,62181346000000,65105448000000
+Samsung Electronics,2022,-표준계정코드 미사용-,당기순이익,-,55654077000000,39907450000000
+Samsung Electronics,2022,-표준계정코드 미사용-,조정,-,33073439000000,49055633000000
+Samsung Electronics,2022,-표준계정코드 미사용-,영업활동으로 인한 자산부채의 변동,-,-16998948000000,-16286884000000
+Samsung Electronics,2022,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,2136795000000,1406706000000
+Samsung Electronics,2022,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,714543000000,434441000000
+Samsung Electronics,2022,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세 납부액,-,11498895000000,8842049000000
+Samsung Electronics,2023,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,44137427000000,62181346000000
+Samsung Electronics,2023,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산부채의 변동 (주27),-,-5458745000000,-16998948000000
+Samsung Electronics,2023,ifrs-full_AdjustmentsForReconcileProfitLoss,조정 (주27),-,36519534000000,33073439000000
+Samsung Electronics,2023,ifrs-full_ProfitLoss,당기순이익(손실),-,15487100000000,55654077000000
+Samsung Electronics,2023,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세 납부액,-,6620950000000,11498895000000
+Samsung Electronics,2023,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,844691000000,714543000000
+Samsung Electronics,2023,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,4786010000000,2136795000000
+Samsung Electronics,2024,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,72982621000000,44137427000000
+Samsung Electronics,2024,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산부채의 변동,-,-1567557000000,-5458745000000
+Samsung Electronics,2024,ifrs-full_AdjustmentsForReconcileProfitLoss,조정,-,42947079000000,36519534000000
+Samsung Electronics,2024,ifrs-full_ProfitLoss,당기순이익,-,34451351000000,15487100000000
+Samsung Electronics,2024,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세 납부액,-,6450044000000,6620950000000
+Samsung Electronics,2024,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,675049000000,844691000000
+Samsung Electronics,2024,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,4008359000000,4786010000000
+SK Hynix,2022,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동 현금흐름,-,14780517000000,19797648000000
+SK Hynix,2022,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,77430000000,17341000000
+SK Hynix,2022,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,494513000000,240942000000
+SK Hynix,2022,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,3979355000000,1014908000000
+SK Hynix,2023,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,4278191000000,14780517000000
+SK Hynix,2023,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,1383942000000,3979355000000
+SK Hynix,2023,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,1261540000000,494513000000
+SK Hynix,2023,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자수취,-,198872000000,77430000000
+SK Hynix,2024,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동 현금흐름,-,29795885000000,4278191000000
+SK Hynix,2024,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 납부,-,552088000000,1383942000000
+SK Hynix,2024,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,1276564000000,1261540000000
+SK Hynix,2024,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,322960000000,198872000000
+Hyundai Motor,2022,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,10627311000000,-1176416000000
+Hyundai Motor,2022,-표준계정코드 미사용-,연결당기순이익,-,7983614000000,5693077000000
+Hyundai Motor,2022,-표준계정코드 미사용-,조정,-,20255938000000,15777589000000
+Hyundai Motor,2022,-표준계정코드 미사용-,영업활동으로 인한 자산·부채의 변동,-,-13922657000000,-20287776000000
+Hyundai Motor,2022,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,867192000000,449789000000
+Hyundai Motor,2022,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,2695029000000,1905945000000
+Hyundai Motor,2022,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 지급,-,2393649000000,1116885000000
+Hyundai Motor,2023,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동으로 인한 현금흐름,-,-2518760000000,10627311000000
+Hyundai Motor,2023,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산·부채의 변동,-,-30365064000000,-13922657000000
+Hyundai Motor,2023,ifrs-full_AdjustmentsForReconcileProfitLoss,조정,-,21192358000000,20255938000000
+Hyundai Motor,2023,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 지급,-,3893842000000,2393649000000
+Hyundai Motor,2023,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,4237818000000,2695029000000
+Hyundai Motor,2023,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,1672380000000,867192000000
+Hyundai Motor,2023,ifrs-full_ProfitLoss,연결당기순이익,-,12272301000000,7983614000000
+Hyundai Motor,2024,ifrs-full_CashFlowsFromUsedInOperatingActivities,영업활동현금흐름,-,-5661641000000,-2518760000000
+Hyundai Motor,2024,dart_AdjustmentsForAssetsLiabilitiesOfOperatingActivities,영업활동으로 인한 자산·부채의 변동,-,-35159625000000,-30365064000000
+Hyundai Motor,2024,ifrs-full_AdjustmentsForReconcileProfitLoss,조정,-,23949871000000,21192358000000
+Hyundai Motor,2024,ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities,법인세의 지급,-,4258837000000,3893842000000
+Hyundai Motor,2024,ifrs-full_InterestPaidClassifiedAsOperatingActivities,이자의 지급,-,5932388000000,4237818000000
+Hyundai Motor,2024,ifrs-full_InterestReceivedClassifiedAsOperatingActivities,이자의 수취,-,1532714000000,1672380000000
+Hyundai Motor,2024,ifrs-full_ProfitLoss,연결당기순이익,-,13229908000000,12272301000000

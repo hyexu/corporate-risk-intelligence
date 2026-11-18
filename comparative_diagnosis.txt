@@ -1,0 +1,102 @@
+
+========================================================================
+Samsung Electronics
+========================================================================
+
+ACCOUNT: revenue
+2022 ORIGINAL: 302,231,360,000,000
+2023 COMPARATIVE: 302,231,360,000,000
+DIFFERENCE: 0 KRW
+DIFFERENCE RATE: 0.0000%
+ORIGINAL SOURCE:
+  id=ifrs-full_Revenue | name=수익(매출액) | statement=IS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=ifrs-full_Revenue | name=영업수익 | statement=IS | field=frmtrm_amount
+
+ACCOUNT: operating_income
+2022 ORIGINAL: 43,376,630,000,000
+2023 COMPARATIVE: 43,376,630,000,000
+DIFFERENCE: 0 KRW
+DIFFERENCE RATE: 0.0000%
+ORIGINAL SOURCE:
+  id=dart_OperatingIncomeLoss | name=영업이익 | statement=IS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=dart_OperatingIncomeLoss | name=영업이익 | statement=IS | field=frmtrm_amount
+
+ACCOUNT: net_income
+2022 ORIGINAL: 55,654,077,000,000
+2023 COMPARATIVE: 55,654,077,000,000
+DIFFERENCE: 0 KRW
+DIFFERENCE RATE: 0.0000%
+ORIGINAL SOURCE:
+  id=ifrs-full_ProfitLoss | name=당기순이익(손실) | statement=IS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=ifrs-full_ProfitLoss | name=당기순이익(손실) | statement=IS | field=frmtrm_amount
+
+========================================================================
+SK Hynix
+========================================================================
+
+ACCOUNT: revenue
+2022 ORIGINAL: 44,621,568,000,000
+2023 COMPARATIVE: 44,621,568,000,000
+DIFFERENCE: 0 KRW
+DIFFERENCE RATE: 0.0000%
+ORIGINAL SOURCE:
+  id=ifrs-full_Revenue | name=매출액 | statement=CIS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=ifrs-full_Revenue | name=매출액 | statement=CIS | field=frmtrm_amount
+
+ACCOUNT: operating_income
+2022 ORIGINAL: 6,809,417,000,000
+2023 COMPARATIVE: 6,809,417,000,000
+DIFFERENCE: 0 KRW
+DIFFERENCE RATE: 0.0000%
+ORIGINAL SOURCE:
+  id=dart_OperatingIncomeLoss | name=영업이익 | statement=CIS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=dart_OperatingIncomeLoss | name=영업이익(손실) | statement=CIS | field=frmtrm_amount
+
+ACCOUNT: net_income
+2022 ORIGINAL: 2,241,669,000,000
+2023 COMPARATIVE: 2,241,669,000,000
+DIFFERENCE: 0 KRW
+DIFFERENCE RATE: 0.0000%
+ORIGINAL SOURCE:
+  id=ifrs-full_ProfitLoss | name=당기순이익 | statement=CIS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=ifrs-full_ProfitLoss | name=당기순이익(손실) | statement=CIS | field=frmtrm_amount
+
+========================================================================
+Hyundai Motor
+========================================================================
+
+ACCOUNT: revenue
+2022 ORIGINAL: 142,527,535,000,000
+2023 COMPARATIVE: 142,151,469,000,000
+DIFFERENCE: -376,066,000,000 KRW
+DIFFERENCE RATE: -0.2639%
+ORIGINAL SOURCE:
+  id=ifrs-full_Revenue | name=매출액 | statement=IS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=ifrs-full_Revenue | name=매출액 | statement=IS | field=frmtrm_amount
+
+ACCOUNT: operating_income
+2022 ORIGINAL: 9,819,769,000,000
+2023 COMPARATIVE: 9,824,928,000,000
+DIFFERENCE: 5,159,000,000 KRW
+DIFFERENCE RATE: 0.0525%
+ORIGINAL SOURCE:
+  id=dart_OperatingIncomeLoss | name=영업이익 | statement=IS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=dart_OperatingIncomeLoss | name=영업이익 | statement=IS | field=frmtrm_amount
+
+ACCOUNT: net_income
+2022 ORIGINAL: 7,983,614,000,000
+2023 COMPARATIVE: 7,983,614,000,000
+DIFFERENCE: 0 KRW
+DIFFERENCE RATE: 0.0000%
+ORIGINAL SOURCE:
+  id=-표준계정코드 미사용- | name=연결당기순이익 | statement=IS | field=thstrm_amount
+COMPARATIVE SOURCE:
+  id=ifrs-full_ProfitLoss | name=연결당기순이익 | statement=IS | field=frmtrm_amount
