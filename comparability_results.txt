@@ -1,0 +1,81 @@
+
+======================================================================
+COMPANY: Samsung Electronics
+======================================================================
+
+AUDIT SUMMARY
+PASS                   21
+PASS_EQUIVALENT        1
+
+TARGET ACCOUNT AUDIT
+2023 revenue              PASS
+2023 operating_income     PASS
+2023 net_income           PASS
+2023 receivables          PASS_EQUIVALENT
+2023 inventory            PASS
+2024 revenue              PASS
+2024 operating_income     PASS
+2024 net_income           PASS
+2024 receivables          PASS
+2024 inventory            PASS
+
+VERIFIED REVENUE GROWTH
+2023: -14.33%
+2024: 16.20%
+
+======================================================================
+COMPANY: SK Hynix
+======================================================================
+
+AUDIT SUMMARY
+PASS                   21
+PASS_EQUIVALENT        1
+
+TARGET ACCOUNT AUDIT
+2023 revenue              PASS
+2023 operating_income     PASS
+2023 net_income           PASS
+2023 receivables          PASS_EQUIVALENT
+2023 inventory            PASS
+2024 revenue              PASS
+2024 operating_income     PASS
+2024 net_income           PASS
+2024 receivables          PASS
+2024 inventory            PASS
+
+VERIFIED REVENUE GROWTH
+2023: -26.57%
+2024: 102.02%
+
+======================================================================
+COMPANY: Hyundai Motor
+======================================================================
+
+AUDIT SUMMARY
+PASS                   18
+PASS_EQUIVALENT        2
+REVIEW                 2
+
+TARGET ACCOUNT AUDIT
+2023 revenue              REVIEW
+  Original: 142527535000000
+  Comparative: 142151469000000
+  Original ID: ifrs-full_Revenue
+  Comparative ID: ifrs-full_Revenue
+2023 operating_income     REVIEW
+  Original: 9819769000000
+  Comparative: 9824928000000
+  Original ID: dart_OperatingIncomeLoss
+  Comparative ID: dart_OperatingIncomeLoss
+2023 net_income           PASS_EQUIVALENT
+2023 receivables          PASS_EQUIVALENT
+2023 inventory            PASS
+2024 revenue              PASS
+2024 operating_income     PASS
+2024 net_income           PASS
+2024 receivables          PASS
+2024 inventory            PASS
+
+VERIFIED REVENUE GROWTH
+2023: NOT VERIFIED
+2024: 7.73%

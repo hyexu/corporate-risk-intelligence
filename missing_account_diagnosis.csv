@@ -1,0 +1,27 @@
+﻿company,year,target,account_id,account_nm,sj_div,account_detail,amount
+Samsung Electronics,2022,receivables,dart_ShortTermTradeReceivable,매출채권,BS,-,35721563000000
+Samsung Electronics,2022,receivables,-표준계정코드 미사용-,미수금,BS,-,6149209000000
+Samsung Electronics,2023,receivables,dart_ShortTermOtherReceivables,미수금,BS,-,6633248000000
+Samsung Electronics,2023,receivables,ifrs-full_CurrentTradeReceivables,매출채권,BS,-,36647393000000
+Samsung Electronics,2024,receivables,dart_ShortTermOtherReceivablesNet,미수금,BS,-,9622974000000
+Samsung Electronics,2024,receivables,ifrs-full_CurrentTradeReceivables,매출채권,BS,-,43623073000000
+SK Hynix,2022,receivables,dart_ShortTermTradeReceivable,매출채권,BS,-,5186054000000
+SK Hynix,2023,receivables,ifrs-full_CurrentTradeReceivables,매출채권,BS,-,6600273000000
+SK Hynix,2023,receivables,ifrs-full_OtherCurrentReceivables,기타수취채권,BS,-,357641000000
+SK Hynix,2023,receivables,ifrs-full_OtherNoncurrentReceivables,기타수취채권,BS,-,475013000000
+SK Hynix,2024,receivables,ifrs-full_CurrentTradeReceivables,매출채권,BS,-,13019006000000
+SK Hynix,2024,receivables,ifrs-full_OtherCurrentReceivables,기타수취채권,BS,-,293061000000
+SK Hynix,2024,receivables,ifrs-full_OtherNoncurrentReceivables,기타수취채권,BS,-,444286000000
+Hyundai Motor,2022,net_income,ifrs-full_ProfitLossBeforeTax,법인세비용차감전순이익,IS,-,10947943000000
+Hyundai Motor,2022,net_income,-표준계정코드 미사용-,연결당기순이익,IS,-,7983614000000
+Hyundai Motor,2022,net_income,ifrs-full_ProfitLossAttributableToOwnersOfParent,지배기업소유주지분,IS,-,7364364000000
+Hyundai Motor,2022,net_income,ifrs-full_ProfitLossAttributableToNoncontrollingInterests,비지배지분,IS,-,619250000000
+Hyundai Motor,2022,net_income,-표준계정코드 미사용-,연결당기순이익,CIS,-,7983614000000
+Hyundai Motor,2023,receivables,ifrs-full_CurrentTradeReceivables,매출채권,BS,-,4682182000000
+Hyundai Motor,2023,receivables,ifrs-full_OtherCurrentReceivables,기타채권,BS,-,3431169000000
+Hyundai Motor,2023,receivables,ifrs-full_NoncurrentTradeReceivables,장기성매출채권,BS,-,210979000000
+Hyundai Motor,2023,receivables,ifrs-full_OtherNoncurrentReceivables,기타채권,BS,-,855015000000
+Hyundai Motor,2024,receivables,ifrs-full_CurrentTradeReceivables,매출채권,BS,-,5908079000000
+Hyundai Motor,2024,receivables,ifrs-full_OtherCurrentReceivables,기타채권,BS,-,3721312000000
+Hyundai Motor,2024,receivables,ifrs-full_NoncurrentTradeReceivables,장기성매출채권,BS,-,272211000000
+Hyundai Motor,2024,receivables,ifrs-full_OtherNoncurrentReceivables,기타채권,BS,-,1803087000000
