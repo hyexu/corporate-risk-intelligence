@@ -1,0 +1,850 @@
+{
+  "metadata": {
+    "company": "Samsung Electronics",
+    "corp_code": "00126380",
+    "years": [
+      2022,
+      2023,
+      2024
+    ],
+    "generated_at": "2026-11-20T05:17:09.992111+00:00",
+    "data_source": "OpenDART",
+    "statement_scope": "Consolidated (CFS)",
+    "analysis_type": "Rule-based screening"
+  },
+  "accounts": {
+    "2022": {
+      "values": {
+        "revenue": 302231360000000,
+        "operating_income": 43376630000000,
+        "net_income": 55654077000000,
+        "assets": 448424507000000,
+        "liabilities": 93674903000000,
+        "equity": 354749604000000,
+        "current_assets": 218470581000000,
+        "current_liabilities": 78344852000000,
+        "receivables": 35721563000000,
+        "inventory": 52187866000000,
+        "operating_cash_flow": 62181346000000
+      },
+      "issues": [],
+      "sources": {
+        "revenue": {
+          "account_id": "ifrs-full_Revenue",
+          "account_nm": "수익(매출액)",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_income": {
+          "account_id": "dart_OperatingIncomeLoss",
+          "account_nm": "영업이익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "net_income": {
+          "account_id": "ifrs-full_ProfitLoss",
+          "account_nm": "당기순이익(손실)",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "assets": {
+          "account_id": "ifrs-full_Assets",
+          "account_nm": "자산총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "liabilities": {
+          "account_id": "ifrs-full_Liabilities",
+          "account_nm": "부채총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "equity": {
+          "account_id": "ifrs-full_Equity",
+          "account_nm": "자본총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_assets": {
+          "account_id": "ifrs-full_CurrentAssets",
+          "account_nm": "유동자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_liabilities": {
+          "account_id": "ifrs-full_CurrentLiabilities",
+          "account_nm": "유동부채",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "receivables": {
+          "account_id": "dart_ShortTermTradeReceivable",
+          "account_nm": "매출채권",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "inventory": {
+          "account_id": "ifrs-full_Inventories",
+          "account_nm": "재고자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_cash_flow": {
+          "account_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+          "account_nm": "영업활동 현금흐름",
+          "sj_div": "CF",
+          "amount_field": "thstrm_amount"
+        }
+      }
+    },
+    "2023": {
+      "values": {
+        "revenue": 258935494000000,
+        "operating_income": 6566976000000,
+        "net_income": 15487100000000,
+        "assets": 455905980000000,
+        "liabilities": 92228115000000,
+        "equity": 363677865000000,
+        "current_assets": 195936557000000,
+        "current_liabilities": 75719452000000,
+        "receivables": 36647393000000,
+        "inventory": 51625874000000,
+        "operating_cash_flow": 44137427000000
+      },
+      "issues": [],
+      "sources": {
+        "revenue": {
+          "account_id": "ifrs-full_Revenue",
+          "account_nm": "영업수익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_income": {
+          "account_id": "dart_OperatingIncomeLoss",
+          "account_nm": "영업이익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "net_income": {
+          "account_id": "ifrs-full_ProfitLoss",
+          "account_nm": "당기순이익(손실)",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "assets": {
+          "account_id": "ifrs-full_Assets",
+          "account_nm": "자산총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "liabilities": {
+          "account_id": "ifrs-full_Liabilities",
+          "account_nm": "부채총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "equity": {
+          "account_id": "ifrs-full_Equity",
+          "account_nm": "자본총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_assets": {
+          "account_id": "ifrs-full_CurrentAssets",
+          "account_nm": "유동자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_liabilities": {
+          "account_id": "ifrs-full_CurrentLiabilities",
+          "account_nm": "유동부채",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "receivables": {
+          "account_id": "ifrs-full_CurrentTradeReceivables",
+          "account_nm": "매출채권",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "inventory": {
+          "account_id": "ifrs-full_Inventories",
+          "account_nm": "재고자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_cash_flow": {
+          "account_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+          "account_nm": "영업활동현금흐름",
+          "sj_div": "CF",
+          "amount_field": "thstrm_amount"
+        }
+      }
+    },
+    "2024": {
+      "values": {
+        "revenue": 300870903000000,
+        "operating_income": 32725961000000,
+        "net_income": 34451351000000,
+        "assets": 514531948000000,
+        "liabilities": 112339878000000,
+        "equity": 402192070000000,
+        "current_assets": 227062266000000,
+        "current_liabilities": 93326299000000,
+        "receivables": 43623073000000,
+        "inventory": 51754865000000,
+        "operating_cash_flow": 72982621000000
+      },
+      "issues": [],
+      "sources": {
+        "revenue": {
+          "account_id": "ifrs-full_Revenue",
+          "account_nm": "매출액",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_income": {
+          "account_id": "dart_OperatingIncomeLoss",
+          "account_nm": "영업이익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "net_income": {
+          "account_id": "ifrs-full_ProfitLoss",
+          "account_nm": "당기순이익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "assets": {
+          "account_id": "ifrs-full_Assets",
+          "account_nm": "자산총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "liabilities": {
+          "account_id": "ifrs-full_Liabilities",
+          "account_nm": "부채총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "equity": {
+          "account_id": "ifrs-full_Equity",
+          "account_nm": "자본총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_assets": {
+          "account_id": "ifrs-full_CurrentAssets",
+          "account_nm": "유동자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_liabilities": {
+          "account_id": "ifrs-full_CurrentLiabilities",
+          "account_nm": "유동부채",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "receivables": {
+          "account_id": "ifrs-full_CurrentTradeReceivables",
+          "account_nm": "매출채권",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "inventory": {
+          "account_id": "ifrs-full_Inventories",
+          "account_nm": "재고자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_cash_flow": {
+          "account_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+          "account_nm": "영업활동현금흐름",
+          "sj_div": "CF",
+          "amount_field": "thstrm_amount"
+        }
+      }
+    }
+  },
+  "ratios": {
+    "2022": {
+      "metrics": {
+        "operating_margin": 14.35,
+        "roa": null,
+        "debt_ratio": 26.41,
+        "current_ratio": 278.86,
+        "cash_conversion": 111.73,
+        "inventory_to_sales": 17.27,
+        "revenue_growth": null,
+        "dso": null,
+        "receivables_growth": null,
+        "inventory_growth": null
+      },
+      "warnings": [
+        "assets: prior-year data unavailable",
+        "revenue: prior-year data unavailable",
+        "receivables: prior-year data unavailable",
+        "inventory: prior-year data unavailable"
+      ],
+      "values": {
+        "revenue": 302231360000000,
+        "operating_income": 43376630000000,
+        "net_income": 55654077000000,
+        "assets": 448424507000000,
+        "liabilities": 93674903000000,
+        "equity": 354749604000000,
+        "current_assets": 218470581000000,
+        "current_liabilities": 78344852000000,
+        "receivables": 35721563000000,
+        "inventory": 52187866000000,
+        "operating_cash_flow": 62181346000000
+      },
+      "sources": {
+        "revenue": {
+          "account_id": "ifrs-full_Revenue",
+          "account_nm": "수익(매출액)",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_income": {
+          "account_id": "dart_OperatingIncomeLoss",
+          "account_nm": "영업이익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "net_income": {
+          "account_id": "ifrs-full_ProfitLoss",
+          "account_nm": "당기순이익(손실)",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "assets": {
+          "account_id": "ifrs-full_Assets",
+          "account_nm": "자산총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "liabilities": {
+          "account_id": "ifrs-full_Liabilities",
+          "account_nm": "부채총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "equity": {
+          "account_id": "ifrs-full_Equity",
+          "account_nm": "자본총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_assets": {
+          "account_id": "ifrs-full_CurrentAssets",
+          "account_nm": "유동자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_liabilities": {
+          "account_id": "ifrs-full_CurrentLiabilities",
+          "account_nm": "유동부채",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "receivables": {
+          "account_id": "dart_ShortTermTradeReceivable",
+          "account_nm": "매출채권",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "inventory": {
+          "account_id": "ifrs-full_Inventories",
+          "account_nm": "재고자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_cash_flow": {
+          "account_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+          "account_nm": "영업활동 현금흐름",
+          "sj_div": "CF",
+          "amount_field": "thstrm_amount"
+        }
+      }
+    },
+    "2023": {
+      "metrics": {
+        "operating_margin": 2.54,
+        "roa": 3.43,
+        "debt_ratio": 25.36,
+        "current_ratio": 258.77,
+        "cash_conversion": 284.99,
+        "inventory_to_sales": 19.94,
+        "revenue_growth": -14.33,
+        "dso": 51.01,
+        "receivables_growth": 2.59,
+        "inventory_growth": -1.08
+      },
+      "warnings": [],
+      "values": {
+        "revenue": 258935494000000,
+        "operating_income": 6566976000000,
+        "net_income": 15487100000000,
+        "assets": 455905980000000,
+        "liabilities": 92228115000000,
+        "equity": 363677865000000,
+        "current_assets": 195936557000000,
+        "current_liabilities": 75719452000000,
+        "receivables": 36647393000000,
+        "inventory": 51625874000000,
+        "operating_cash_flow": 44137427000000
+      },
+      "sources": {
+        "revenue": {
+          "account_id": "ifrs-full_Revenue",
+          "account_nm": "영업수익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_income": {
+          "account_id": "dart_OperatingIncomeLoss",
+          "account_nm": "영업이익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "net_income": {
+          "account_id": "ifrs-full_ProfitLoss",
+          "account_nm": "당기순이익(손실)",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "assets": {
+          "account_id": "ifrs-full_Assets",
+          "account_nm": "자산총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "liabilities": {
+          "account_id": "ifrs-full_Liabilities",
+          "account_nm": "부채총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "equity": {
+          "account_id": "ifrs-full_Equity",
+          "account_nm": "자본총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_assets": {
+          "account_id": "ifrs-full_CurrentAssets",
+          "account_nm": "유동자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_liabilities": {
+          "account_id": "ifrs-full_CurrentLiabilities",
+          "account_nm": "유동부채",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "receivables": {
+          "account_id": "ifrs-full_CurrentTradeReceivables",
+          "account_nm": "매출채권",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "inventory": {
+          "account_id": "ifrs-full_Inventories",
+          "account_nm": "재고자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_cash_flow": {
+          "account_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+          "account_nm": "영업활동현금흐름",
+          "sj_div": "CF",
+          "amount_field": "thstrm_amount"
+        }
+      }
+    },
+    "2024": {
+      "metrics": {
+        "operating_margin": 10.88,
+        "roa": 7.1,
+        "debt_ratio": 27.93,
+        "current_ratio": 243.3,
+        "cash_conversion": 211.84,
+        "inventory_to_sales": 17.2,
+        "revenue_growth": 16.2,
+        "dso": 48.69,
+        "receivables_growth": 19.03,
+        "inventory_growth": 0.25
+      },
+      "warnings": [],
+      "values": {
+        "revenue": 300870903000000,
+        "operating_income": 32725961000000,
+        "net_income": 34451351000000,
+        "assets": 514531948000000,
+        "liabilities": 112339878000000,
+        "equity": 402192070000000,
+        "current_assets": 227062266000000,
+        "current_liabilities": 93326299000000,
+        "receivables": 43623073000000,
+        "inventory": 51754865000000,
+        "operating_cash_flow": 72982621000000
+      },
+      "sources": {
+        "revenue": {
+          "account_id": "ifrs-full_Revenue",
+          "account_nm": "매출액",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_income": {
+          "account_id": "dart_OperatingIncomeLoss",
+          "account_nm": "영업이익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "net_income": {
+          "account_id": "ifrs-full_ProfitLoss",
+          "account_nm": "당기순이익",
+          "sj_div": "IS",
+          "amount_field": "thstrm_amount"
+        },
+        "assets": {
+          "account_id": "ifrs-full_Assets",
+          "account_nm": "자산총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "liabilities": {
+          "account_id": "ifrs-full_Liabilities",
+          "account_nm": "부채총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "equity": {
+          "account_id": "ifrs-full_Equity",
+          "account_nm": "자본총계",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_assets": {
+          "account_id": "ifrs-full_CurrentAssets",
+          "account_nm": "유동자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "current_liabilities": {
+          "account_id": "ifrs-full_CurrentLiabilities",
+          "account_nm": "유동부채",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "receivables": {
+          "account_id": "ifrs-full_CurrentTradeReceivables",
+          "account_nm": "매출채권",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "inventory": {
+          "account_id": "ifrs-full_Inventories",
+          "account_nm": "재고자산",
+          "sj_div": "BS",
+          "amount_field": "thstrm_amount"
+        },
+        "operating_cash_flow": {
+          "account_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+          "account_nm": "영업활동현금흐름",
+          "sj_div": "CF",
+          "amount_field": "thstrm_amount"
+        }
+      }
+    }
+  },
+  "comparability": {
+    "audit": [
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "revenue",
+        "status": "PASS",
+        "original": 302231360000000,
+        "comparative": 302231360000000,
+        "original_id": "ifrs-full_Revenue",
+        "comparative_id": "ifrs-full_Revenue"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "operating_income",
+        "status": "PASS",
+        "original": 43376630000000,
+        "comparative": 43376630000000,
+        "original_id": "dart_OperatingIncomeLoss",
+        "comparative_id": "dart_OperatingIncomeLoss"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "net_income",
+        "status": "PASS",
+        "original": 55654077000000,
+        "comparative": 55654077000000,
+        "original_id": "ifrs-full_ProfitLoss",
+        "comparative_id": "ifrs-full_ProfitLoss"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "assets",
+        "status": "PASS",
+        "original": 448424507000000,
+        "comparative": 448424507000000,
+        "original_id": "ifrs-full_Assets",
+        "comparative_id": "ifrs-full_Assets"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "liabilities",
+        "status": "PASS",
+        "original": 93674903000000,
+        "comparative": 93674903000000,
+        "original_id": "ifrs-full_Liabilities",
+        "comparative_id": "ifrs-full_Liabilities"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "equity",
+        "status": "PASS",
+        "original": 354749604000000,
+        "comparative": 354749604000000,
+        "original_id": "ifrs-full_Equity",
+        "comparative_id": "ifrs-full_Equity"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "current_assets",
+        "status": "PASS",
+        "original": 218470581000000,
+        "comparative": 218470581000000,
+        "original_id": "ifrs-full_CurrentAssets",
+        "comparative_id": "ifrs-full_CurrentAssets"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "current_liabilities",
+        "status": "PASS",
+        "original": 78344852000000,
+        "comparative": 78344852000000,
+        "original_id": "ifrs-full_CurrentLiabilities",
+        "comparative_id": "ifrs-full_CurrentLiabilities"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "receivables",
+        "status": "PASS_EQUIVALENT",
+        "original": 35721563000000,
+        "comparative": 35721563000000,
+        "original_id": "dart_ShortTermTradeReceivable",
+        "comparative_id": "ifrs-full_CurrentTradeReceivables"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "inventory",
+        "status": "PASS",
+        "original": 52187866000000,
+        "comparative": 52187866000000,
+        "original_id": "ifrs-full_Inventories",
+        "comparative_id": "ifrs-full_Inventories"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2023,
+        "financial_year": 2022,
+        "account": "operating_cash_flow",
+        "status": "PASS",
+        "original": 62181346000000,
+        "comparative": 62181346000000,
+        "original_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+        "comparative_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "revenue",
+        "status": "PASS",
+        "original": 258935494000000,
+        "comparative": 258935494000000,
+        "original_id": "ifrs-full_Revenue",
+        "comparative_id": "ifrs-full_Revenue"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "operating_income",
+        "status": "PASS",
+        "original": 6566976000000,
+        "comparative": 6566976000000,
+        "original_id": "dart_OperatingIncomeLoss",
+        "comparative_id": "dart_OperatingIncomeLoss"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "net_income",
+        "status": "PASS",
+        "original": 15487100000000,
+        "comparative": 15487100000000,
+        "original_id": "ifrs-full_ProfitLoss",
+        "comparative_id": "ifrs-full_ProfitLoss"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "assets",
+        "status": "PASS",
+        "original": 455905980000000,
+        "comparative": 455905980000000,
+        "original_id": "ifrs-full_Assets",
+        "comparative_id": "ifrs-full_Assets"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "liabilities",
+        "status": "PASS",
+        "original": 92228115000000,
+        "comparative": 92228115000000,
+        "original_id": "ifrs-full_Liabilities",
+        "comparative_id": "ifrs-full_Liabilities"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "equity",
+        "status": "PASS",
+        "original": 363677865000000,
+        "comparative": 363677865000000,
+        "original_id": "ifrs-full_Equity",
+        "comparative_id": "ifrs-full_Equity"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "current_assets",
+        "status": "PASS",
+        "original": 195936557000000,
+        "comparative": 195936557000000,
+        "original_id": "ifrs-full_CurrentAssets",
+        "comparative_id": "ifrs-full_CurrentAssets"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "current_liabilities",
+        "status": "PASS",
+        "original": 75719452000000,
+        "comparative": 75719452000000,
+        "original_id": "ifrs-full_CurrentLiabilities",
+        "comparative_id": "ifrs-full_CurrentLiabilities"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "receivables",
+        "status": "PASS",
+        "original": 36647393000000,
+        "comparative": 36647393000000,
+        "original_id": "ifrs-full_CurrentTradeReceivables",
+        "comparative_id": "ifrs-full_CurrentTradeReceivables"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "inventory",
+        "status": "PASS",
+        "original": 51625874000000,
+        "comparative": 51625874000000,
+        "original_id": "ifrs-full_Inventories",
+        "comparative_id": "ifrs-full_Inventories"
+      },
+      {
+        "company_code": "00126380",
+        "report_year": 2024,
+        "financial_year": 2023,
+        "account": "operating_cash_flow",
+        "status": "PASS",
+        "original": 44137427000000,
+        "comparative": 44137427000000,
+        "original_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities",
+        "comparative_id": "ifrs-full_CashFlowsFromUsedInOperatingActivities"
+      }
+    ],
+    "summary": {
+      "PASS": 21,
+      "PASS_EQUIVALENT": 1
+    }
+  },
+  "screening": {
+    "findings": [
+      {
+        "year": 2023,
+        "signal": "RECEIVABLES_DIVERGENCE",
+        "status": "SCREENING_SIGNAL",
+        "asset_growth_pct": 2.59,
+        "revenue_growth_pct": -14.33,
+        "gap_pp": 16.92,
+        "interpretation": "Asset growth exceeds revenue growth. This is a review signal, not proof of accounting misconduct."
+      }
+    ],
+    "skipped": []
+  },
+  "explanations": [
+    {
+      "year": 2023,
+      "signal": "RECEIVABLES_DIVERGENCE",
+      "title": "매출채권과 매출 성장률의 괴리",
+      "observation": "매출채권 증가율은 +2.59%, 매출 성장률은 -14.33%로 차이는 +16.92%p입니다.",
+      "interpretation": "매출채권이 매출보다 빠르게 증가했습니다. 매출채권 회수기간 변화나 거래조건 변화 등을 점검할 필요가 있습니다. 다만 매출 감소기에 나타나는 분모 효과도 고려해야 합니다.",
+      "verification_needed": [
+        "매출채권 회수기간(DSO)의 변화",
+        "매출채권 연령분석 및 대손충당금",
+        "매출채권의 계정 범위와 사업부문 구성"
+      ],
+      "conclusion_level": "SCREENING_ONLY"
+    }
+  ],
+  "limitations": [
+    "Signals are not evidence of fraud.",
+    "Screening thresholds are provisional.",
+    "Unverified comparisons are excluded.",
+    "Cash flow attribution is not yet verified.",
+    "Financial services may affect comparability."
+  ]
+}
