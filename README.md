@@ -19,10 +19,18 @@
 - **Financial Risk Summary:** 검증된 데이터와 탐지 결과에 기반한 한국어 규칙 기반 3줄 요약
 - **Samsung Analysis:** 삼성전자 개별 재무 분석 페이지
 
-![3개년 재무 추이 대시보드](assets/dashboard-overview1.jpeg)
-(assets/dashboard-overview2.jpeg)
 
-![기업별 위험 신호 및 자동 요약](assets/risk-summary.jpeg)
+## Dashboard Preview
+
+### 1. 재무 추이 대시보드
+![3개년 재무 추이 대시보드](assets/dashboard-overview1.jpeg)
+
+### 2. 재무 분석 대시보드
+![재무 분석 대시보드](assets/dashboard-overview2.jpeg)
+
+### 3. 재무 위험 신호 및 자동 요약
+![재무 위험 신호 및 자동 요약](assets/risk-summary.jpeg)
+
 
 ## 실제 기업 분석 사례
 
