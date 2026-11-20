@@ -202,9 +202,6 @@
 - **GitHub Codespaces:** 클라우드 개발 환경
 - **GitHub:** 버전 관리 및 프로젝트 공개
 
-## Project Structure
-
-```text
 app.py
 dashboard/
   financial_risk_dashboard.py
@@ -213,22 +210,32 @@ pages/
 financial_engine/
   dart_client.py
   account_mapping.py
+  validation.py
   comparability.py
   ratios.py
   ratio_analysis.py
-  accounting_insights.py
   advanced_ratios.py
-  report.py
-  pipeline.py
+  risk_screening.py
   verified_screening.py
+  accounting_insights.py
   explanation.py
   risk_summary.py
+  report.py
+  pipeline.py
 run_pipeline.py
+analysis_outputs/
+  samsung_electronics_analysis.json
+  sk_hynix_analysis.json
+  hyundai_motor_analysis.json
 assets/
   dashboard-overview1.jpeg
   dashboard-overview2.jpeg
-  risk-summary.jpeg
-```
+  accounting-ratio-analysis.jpeg
+  advanced-financial-ratios.jpeg
+  financial-review-report.jpeg
+  samsung-financial-overview.jpeg
+test_*.py                     # 단위 테스트 7종
+archive/                      # 초기 프로토타입 및 진단 로그
 
 ## Getting Started
 
