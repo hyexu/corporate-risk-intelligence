@@ -340,6 +340,188 @@ st.caption(
 )
 
 
+# Accounting and audit-oriented financial review report
+from financial_engine.report import (
+    build_financial_review_report,
+    report_to_markdown,
+)
+
+st.divider()
+st.subheader("회계·감사 관점 심층 분석 보고서")
+
+st.caption(
+    "OpenDART 연결재무제표 기반 | "
+    "재무성과 · 이익의 질 · 감사 관점 · 후속 검토"
+)
+
+report_company = st.selectbox(
+    "심층 분석할 기업 선택",
+    options=selected_companies,
+    key="financial_review_company",
+)
+
+report_result = analyses[report_company]
+
+try:
+    review_report = build_financial_review_report(report_result)
+    review_markdown = report_to_markdown(review_report)
+
+    st.markdown(review_markdown)
+
+except Exception as exc:
+    st.error("심층 분석 보고서를 생성하지 못했습니다.")
+    st.caption(
+        f"오류 유형: {type(exc).__name__}"
+    )
+
+st.info(
+    "본 보고서는 공시 재무정보와 규칙 기반 분석에 "
+    "따른 예비 검토 자료입니다. "
+    "회계감사 수행 결과나 감사의견이 아니며, "
+    "회계부정 또는 중요왜곡표시의 존재를 "
+    "확정하지 않습니다."
+)
+
+
+
+from financial_engine.accounting_insights import (
+    build_accounting_insights,
+    insights_to_markdown,
+)
+
+st.markdown("### 주요 회계적 분석 및 감사 검토사항")
+
+accounting_insights = build_accounting_insights(report_result)
+
+st.markdown(insights_to_markdown(accounting_insights))
+
+st.caption(
+    "기간 비교는 기존 비교가능성 검증을 통과한 "
+    "계정에 한정합니다. 15%p 기준은 잠정적인 "
+    "분석 기준이며 실증적으로 검증되지 않았습니다."
+)
+
+
+from financial_engine.ratio_analysis import (
+    calculate_accounting_ratios,
+    build_ratio_interpretations,
+)
+
+st.divider()
+st.subheader("3개년 핵심 재무비율 분석")
+
+ratio_result = calculate_accounting_ratios(report_result)
+
+ratio_rows = []
+
+for year, metrics in ratio_result.items():
+    row = {"사업연도": year}
+
+    for metric in metrics.values():
+        value = metric["value"]
+        row[metric["name"]] = (
+            f"{value:,.2f}{metric['unit']}"
+            if value is not None
+            else "산출 보류"
+        )
+
+    ratio_rows.append(row)
+
+st.dataframe(
+    ratio_rows,
+    use_container_width=True,
+    hide_index=True,
+)
+
+st.subheader("재무비율 교차 분석")
+
+ratio_insights = build_ratio_interpretations(report_result)
+
+if not ratio_insights:
+    st.info(
+        "현재 잠정 기준에서 추가 교차 분석 신호가 없습니다. "
+        "이는 재무위험이 없다는 의미는 아닙니다."
+    )
+else:
+    for item in ratio_insights:
+        with st.expander(
+            f"{item['year']}년 | {item['title']}"
+        ):
+            st.write("관찰:", item["evidence"])
+            st.write("회계적 해석:", item["interpretation"])
+            st.write("관련 감사 주장:", item["audit_focus"])
+
+st.caption(
+    "비율 분석은 공시된 연결재무제표를 기반으로 합니다. "
+    "기간 비교는 검증된 비교금액에 한정하며, "
+    "15%p 및 총발생액 비율 10% 기준은 잠정 기준입니다. "
+    "탐지 결과는 감사의견이나 회계부정 판정이 아닙니다."
+)
+
+from financial_engine.advanced_ratios import (
+    build_advanced_ratios,
+)
+
+st.divider()
+st.subheader("확장 회계·재무비율 분석")
+
+st.caption(
+    "매출원가·현금성자산·재고회전율·투자지출 분석"
+)
+
+advanced_company = st.selectbox(
+    "확장 분석 대상 기업",
+    options=selected_companies,
+    key="advanced_ratio_company",
+)
+
+advanced_corp_code = {
+    "Samsung Electronics": "00126380",
+    "SK Hynix": "00164779",
+    "Hyundai Motor": "00164742",
+}[advanced_company]
+
+with st.spinner("공시 데이터를 분석하는 중입니다..."):
+    advanced = build_advanced_ratios(
+        advanced_corp_code
+    )
+
+rows = []
+
+for year, data in advanced.items():
+    metrics = data["metrics"]
+
+    rows.append({
+        "연도": year,
+        "매출총이익률(%)": metrics["gross_margin"],
+        "재고회전율(회)": metrics["inventory_turnover"],
+        "현금비율(%)": metrics["cash_ratio"],
+        "CAPEX(조 원)": (
+            metrics["capex"] / 1e12
+            if metrics["capex"] is not None
+            else None
+        ),
+        "간이 FCF(조 원)": (
+            metrics["simple_fcf"] / 1e12
+            if metrics["simple_fcf"] is not None
+            else None
+        ),
+    })
+
+st.dataframe(
+    rows,
+    use_container_width=True,
+    hide_index=True,
+)
+
+st.caption(
+    "재고회전율은 검증된 전기 재고자산을 사용합니다. "
+    "FCF는 영업현금흐름에서 유형자산 취득액만 차감한 "
+    "간이 지표입니다. 금융비용은 이자비용과 동일하지 "
+    "않으므로 이자보상배율은 계산하지 않습니다."
+)
+
+
 st.divider()
 st.subheader("분석 기준 및 한계")
 
