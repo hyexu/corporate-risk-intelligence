@@ -7,6 +7,8 @@
 
 [대시보드 실행하기](https://corporate-risk-intelligence.streamlit.app)
 
+> **앱이 잠들어 있을 때:** Streamlit Cloud는 일정 시간 접속이 없으면 앱을 절전 상태로 전환합니다. 위 링크를 열었을 때 "Yes, get this app back up!" 버튼이 보이면 눌러 주세요. 1분 정도 뒤 앱이 다시 실행됩니다.
+
 ## Project Overview
 
 금융감독원 OpenDART API를 활용하여 국내 주요 상장기업의 연결재무제표를 수집하고, 재무성과·재무안정성·현금흐름·운전자본을 분석하는 Python·Streamlit 프로젝트입니다.
@@ -206,6 +208,7 @@
 
 ```text
 app.py
+requirements.txt
 dashboard/
   financial_risk_dashboard.py
 pages/
@@ -213,21 +216,32 @@ pages/
 financial_engine/
   dart_client.py
   account_mapping.py
+  validation.py
   comparability.py
   ratios.py
   ratio_analysis.py
-  accounting_insights.py
   advanced_ratios.py
-  report.py
-  pipeline.py
+  risk_screening.py
   verified_screening.py
+  accounting_insights.py
   explanation.py
   risk_summary.py
+  report.py
+  pipeline.py
 run_pipeline.py
+analysis_outputs/
+  samsung_electronics_analysis.json
+  sk_hynix_analysis.json
+  hyundai_motor_analysis.json
 assets/
   dashboard-overview1.jpeg
   dashboard-overview2.jpeg
-  risk-summary.jpeg
+  accounting-ratio-analysis.jpeg
+  advanced-financial-ratios.jpeg
+  financial-review-report.jpeg
+  samsung-financial-overview.jpeg
+test_*.py                     # 진단·검증 스크립트 7종 (print 출력 확인용, assert 기반 테스트 아님)
+archive/                      # 초기 프로토타입 및 진단 결과 로그
 ```
 
 ## Getting Started
